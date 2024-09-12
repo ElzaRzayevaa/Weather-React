@@ -1,0 +1,57 @@
+body{
+  background-image: url("sunny.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+   
+}
+
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.secondCont{
+    border-radius: 10px;
+    margin-top: 150px;
+    text-align: center;
+    width: 35%;
+    background-color: rgba(255, 255, 255, 0.5);
+
+
+}
+.inputPart{
+    width: 300px;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.searchBtn {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+}
+.searchBtn:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+
+.cityName{
+    font-weight: bold; 
+    font-size: 24px; 
+    padding: 10px;
+    
+}
+
+.temp {
+    padding: 10px;
+    font-size: 17px; 
+}
